@@ -7,7 +7,7 @@
 
    Logger::$PATH = dirname(__FILE__);   //Путь к файлу
 
-   Logger::$isOutINBD = true;  //Если true, то $Logger->log($mess) выводит в БД
-                              //если false, то в файл
+   Logger::$isOutINBD = true;  Если true, то $Logger->log($mess) выводит в БД
+                              , если false, то в файл
 
 Далее выводятся: массив, строка, массив $GLOBALS, исключение, объект для демонстрации.
